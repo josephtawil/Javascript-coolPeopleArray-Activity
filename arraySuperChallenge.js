@@ -18,3 +18,16 @@ for(var index = 0; index < superArray.length;index++)
 }
 
 console.log("There are "+counter+" strings.");
+
+// //this is an infinite loop because counter2 will always be less than 10 so it will always print.
+// var counter2 = 0;
+
+// while(counter2 < 10)
+// {
+//     console.log("ERROR");
+// }
+
+var loud = "AKAKAKKASKEFKSKGFKSDKGKSDGKSDG";
+
+console.log(loud.toLowerCase());
+console.log(loud.toUpperCase());
